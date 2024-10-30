@@ -204,3 +204,30 @@ code {
     50% {transform: translateX(-25%);}
     100% {transform: translateX(-50%);}
 }
+.new_wave_cs{
+	  background: url("../src/download.svg");
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  animation: wave 20s 5s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.new_wave:nth-of-type(3){
+	  background: url("../src/download.svg");
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  animation: wave 20s 5s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.private_river{
+	display: flex;
+	text-align: center;
+	width: 100%;
+	animation: wave 10s 4s linear infinite;
+}
+
